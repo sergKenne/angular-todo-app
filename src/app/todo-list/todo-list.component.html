@@ -1,0 +1,40 @@
+<app-search-form></app-search-form>
+<div class="mt-5">
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Email</th>
+                <th scope="col">Update</th>
+                <th scope="col">Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Serge Kenne</td>
+                <td>34</td>
+                <td>kenne_serge@mail.ru</td>
+                <td>
+                    <button class="btn btn-success"><i class="bi bi-pencil-square pe-2"></i><span><a class="text-white text-decoration-none" routerLink="/edit" >Edit</a></span></button>
+                </td>
+                <td><button class="btn btn-danger"><i class="bi bi-trash-fill pe-2"></i><span>Delete</span></button></td>
+            </tr>
+            <tr>
+                <td>Serge Kenne</td>
+                <td>34</td>
+                <td>kenne_serge@mail.ru</td>
+                <td>
+                    <button class="btn btn-success"><i class="bi bi-pencil-square pe-2"></i><span>Edit</span></button>
+                </td>
+                <td><button class="btn btn-danger"><i class="bi bi-trash-fill pe-2"></i><span>Delete</span></button></td>
+            </tr>
+
+            <!-- <div *ngFor="let todo of todos">
+            <p>{{todo.name}}</p>
+            <p>{{todo.age}}</p>
+            <p>{{todo.email}}</p>
+            </div> -->
+        </tbody>
+    </table>
+</div>
